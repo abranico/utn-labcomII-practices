@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabla simple</h2>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Equipo</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lionel</td>
+                <td>Messi</td>
+                <td>36</td>
+                <td>Inter Miami</td>
+            <tr>
+            <tr>
+                <td>Cristiano </td>
+                <td>Ronaldo</td>
+                <td>38</td>
+                <td>Al-Nassr</td>
+            <tr>
+            <tr>
+                <td>Neymar</td>
+                <td>da Silva Santos Júnior</td>
+                <td>31</td>
+                <td>Al-Hilal</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabla compleja</h2>
+    <table>
+        <thead>
+            <th>Película</th>
+            <th>Distribuidora</th>
+            <th>Recaudación</th>
+            <th>Año de estreno</th>
+            <th>Director</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Avatar</td>
+                <td>20th Century Fox</td>
+                <td><strong>$2,923,706,026</strong></td>
+                <td>2009</td>
+                <td><a href="https://es.wikipedia.org/wiki/James_Cameron" target="_blank">James Cameron</a></td>
+            <tr>
+            <tr>
+                <td>Avengers: Endgame</td>
+                <td rowspan="3">Walt Disney Studios Motion Pictures</td>
+                <td><strong>$2,799,439,100</strong></td>
+                <td>2019</td>
+                <td><a href="https://es.wikipedia.org/wiki/Hermanos_Russo" target="_blank">Anthony y Joe Russo</a></td>
+            <tr>
+            <tr>
+                <td>Avatar: El Camino del Agua</td>
+                <td><strong>$2,320,250,281</strong></td>
+                <td>2022</td>
+                <td rowspan="2"><a href="https://es.wikipedia.org/wiki/James_Cameron" target="_blank">James Cameron</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Titanic</td>
+                <td>20th Century Fox / Paramount Pictures</td>
+                <td><strong>$2,264,743,305</strong></td>
+                <td>1997</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td style="text-align: center;" colspan="5">Fuente: <a
+                        href="https://es.wikipedia.org/wiki/Anexo:Pel%C3%ADculas_con_las_mayores_recaudaciones"
+                        target="_blank">Wikipedia</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
